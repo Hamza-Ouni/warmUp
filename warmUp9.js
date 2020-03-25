@@ -4,12 +4,17 @@
 //1. Write a JavaScript function to check whether an `input` is an array or not
 // ex isArray([1,2])=>true
 //    isArray(5)=>false
+<<<<<<< HEAD
 function isArray (input){
 	if (Array.isArray(input)){
 		return true;
 	}
 	return false;
    }
+=======
+
+var isArray = array => (Array.isArray(array) ? true : false);
+>>>>>>> 542e878735fb7d381c1d2089efdfe92c5a97bbd6
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************
@@ -21,10 +26,14 @@ function isArray (input){
 //ex  first([1,2,3],1)=>[1]
 <<<<<<< HEAD
 //    first([1,2,3,4]2)=>[1,2]
+<<<<<<< HEAD
 function firstElement (array){
 	array === [];
 	return array[0];
 }
+=======
+var first = (arr, n) => arr.splice(0, n);
+>>>>>>> 542e878735fb7d381c1d2089efdfe92c5a97bbd6
 =======
 //    first([1,2,3,4],2)=>[1,2]
 >>>>>>> 0e47aea7be29872390744ebf393e4da84d716048

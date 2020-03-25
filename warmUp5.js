@@ -11,6 +11,7 @@ function greaterNum (x,y) {
  }
 
 
+
 // 2) Write a function named isEven using  for loop that
 // -  iterate from x to y.
 // -  return array contain the even values,
@@ -23,9 +24,6 @@ function isEven (x, y){
 	
 }
 
-// function isEven(x, y) {
-
-// }
 //3) write a function named sum that
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
@@ -37,6 +35,7 @@ function sum (x, y){
 			}
 		return result;
 }
+
 
 //4) Write a function named factorial that
 // -  Use Recursion to calculate the factorial of a number
