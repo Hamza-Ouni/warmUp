@@ -3,6 +3,7 @@
 
 // 1-Define a function called myTrueFun that returns true whenever its called.
 <<<<<<< HEAD
+<<<<<<< HEAD
 function myTrueFun(){
 	return true ;
 }
@@ -24,6 +25,11 @@ var color = input => {
   return typeof input === "string" ? true : false;
 };
 >>>>>>> 542e878735fb7d381c1d2089efdfe92c5a97bbd6
+=======
+
+// 2- Define a function called color in which returns true if type of the input is string and returns false otherwise.
+
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d
 
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
 function primeNumber (n){
@@ -36,6 +42,7 @@ function primeNumber (n){
 
 // 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
 <<<<<<< HEAD
+<<<<<<< HEAD
 function sameNumber (a, b){
 	if (a == b){
 		return true;
@@ -47,3 +54,6 @@ var same = (number1, number2) => {
   return number1 === number2 ? true : false;
 };
 >>>>>>> 542e878735fb7d381c1d2089efdfe92c5a97bbd6
+=======
+
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d

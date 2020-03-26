@@ -13,6 +13,7 @@
 //    helloWorld('es') ==> 'Hola, Mundo'
 //    helloWorld('') ==> 'Hello, World'
 <<<<<<< HEAD
+<<<<<<< HEAD
 function helloWorld(language) {
   var answer = "";
 
@@ -45,20 +46,13 @@ return newArr;
 =======
 var helloWorld = lang => {
   var lang = lang.toLowerCase();
+=======
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d
 
-  return lang === ""
-    ? "Hello, World"
-    : lang === "fr"
-    ? "Bonjour tout le monde"
-    : lang === "es"
-    ? "Hola, Mundo"
-    : lang === "ar"
-    ? "صباح الخير"
-    : null;
-};
 
 //3- write a function to Reverse an array without use array.reverse() method:
 // ex: reverseArray([1,2,3]) ==> [3,2,1]
+<<<<<<< HEAD
 var reverse = arr => {
   var result = [];
 
@@ -69,3 +63,5 @@ var reverse = arr => {
   return result;
 };
 >>>>>>> 542e878735fb7d381c1d2089efdfe92c5a97bbd6
+=======
+>>>>>>> 61b0662bb14ae4fe1668c5e0f12461a2bba0362d
